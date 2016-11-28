@@ -1,8 +1,6 @@
 /**
  * Created by GodaiYuusaku on 11/28/16.
  */
-function hello(compiler: string) {
-    console.log(`Hello from ${compiler}`);
-}
+import { sayHello } from "./greet";
 
-hello("TypeScript");
+console.log(sayHello("TypeScript"));
